@@ -1,0 +1,41 @@
+.feature-area {
+  background-color: $color-bg;
+  .container {
+    p {
+      color: $color-five;
+    }
+    .feature-top {
+      margin-bottom: 70px;
+      .row {
+        .col-md-3 {
+          .feature-top-title {
+            font-weight: 600;
+            font-size: 41px;
+            line-height: 61px;
+          }
+        }
+        .col-md-2 {
+          .feature-top-button {
+            padding: 20px 30px;
+            border-radius: 50px;
+          }
+        }
+      }
+    }
+    .feature-bottom {
+      .feature-bot-cont {
+        img {
+          border-radius: 20px;
+        }
+
+        h3 {
+          padding-top: 30px;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

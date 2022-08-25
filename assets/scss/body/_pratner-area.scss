@@ -1,0 +1,82 @@
+.pratner-area {
+  background-color: $color-eight;
+  .container {
+    padding: 30px 0px;
+    .row {
+      .col-md-7 {
+        .pratner-content {
+          h2 {
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 61px;
+            margin-bottom: 30px;
+          }
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            color: $color-five;
+            margin-bottom: 72px;
+          }
+          .rating-div {
+            .rating-body {
+              .star-rating {
+                span {
+                  font-size: 26px;
+                  margin-bottom: 17px;
+                }
+                .fa-star {
+                  color: $color-five;
+                }
+                .checked {
+                  color: orange;
+                }
+              }
+              .card-title {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 17px;
+              }
+            }
+          }
+        }
+      }
+      .col-md-5 {
+        .pratner-right {
+          .pratner-right-cont {
+            .row {
+              .col-sm-1 {
+                i {
+                  font-size: 25px;
+
+                  background-color: $color-three;
+                  color: $color-one;
+                  padding: 8px;
+                  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.06);
+                }
+              }
+              .col-sm-11 {
+                .card-title {
+                  font-weight: 700;
+                  font-size: 28px;
+                  line-height: 34px;
+                  padding-left: 30px;
+                }
+                .card-text {
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 30px;
+                  padding-left: 30px;
+                }
+              }
+            }
+            &:not(:last-child) {
+              padding-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

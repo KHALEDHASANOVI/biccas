@@ -1,0 +1,103 @@
+.plan-area {
+  background-color: $color-bg;
+  .fa-ul {
+    list-style-type: none;
+    margin-left: 0em;
+    padding-left: 0;
+  }
+  .container {
+    .plan-area-top {
+      h2 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 73px;
+      }
+      P {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: $color-five;
+      }
+      .switch-button {
+        background-color: $color-three;
+        border-radius: 15px;
+        .switch-one {
+          padding: 20px 38px;
+        }
+        .switch-two {
+          padding: 13px 40px;
+        }
+      }
+    }
+    .plan-area-bottom {
+      .plan {
+        background-color: $color-three;
+        margin-top: 89px;
+        padding: 20px 20px 10px;
+        border-radius: 10px;
+        h2 {
+          padding: 20px 0px 5px;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 36px;
+        }
+        P {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 27px;
+          color: $color-five;
+        }
+        .price {
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 30px;
+          padding: 26px 0px;
+        }
+        ul.features.fa-ul {
+          background-color: $color-eight;
+          color: $color-two;
+          text-align: left;
+          padding: 28px 36px;
+          border-radius: 10px;
+          li {
+            position: relative;
+            padding-left: 10px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            i {
+              color: var(--color-one);
+              padding-left: 20px;
+            }
+          }
+          a.common-button {
+            display: flex;
+            justify-content: center;
+            margin: 25px 25px 0px;
+          }
+        }
+      }
+      .popular {
+        background-color: $color-one;
+        color: $color-three;
+        margin-top: 67px;
+        P {
+          color: $color-three;
+        }
+        ul.features.fa-ul {
+          background-color: $color-three;
+        }
+        .save-price {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 30px;
+          background-color: var(--color-ten);
+          display: inline-block;
+          padding: 7px 15px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

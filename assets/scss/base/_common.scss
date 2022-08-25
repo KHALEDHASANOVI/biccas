@@ -1,0 +1,21 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: $color-two;
+}
+section {
+  padding: 50px 0px;
+}
+.common-button {
+  background-color: $color-one;
+  color: $color-three !important;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.dark-background {
+  background-color: $color-four;
+  color: $color-three;
+}

@@ -1,0 +1,84 @@
+.benifit-area {
+  background-color: $color-eight;
+  .container {
+    .row {
+      .col-md-5 {
+        .benifit-area-left {
+          h2 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+            margin-bottom: 40px;
+          }
+          .fa-ul {
+            margin-left: 32px;
+            padding: 0;
+            li {
+              margin-bottom: 30px;
+              i {
+                font-size: 28px;
+                color: $color-one;
+              }
+            }
+          }
+        }
+      }
+      .col-md-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        .stack {
+          position: relative;
+          img {
+            width: 100%;
+            border-radius: 10px;
+          }
+          &:before {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            background: url(../img/beni-1.png) no-repeat;
+            top: 36px;
+            left: -134px;
+            width: 322px;
+            height: 100px;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            background: url(../img/beni-2.png) no-repeat;
+            top: 121px;
+            right: -80px;
+            width: 156px;
+            height: 88px;
+          }
+          .stack-2 {
+            position: relative;
+            &:before {
+              content: "";
+              position: absolute;
+              z-index: 1;
+              background: url(../img/beni-3.png) no-repeat;
+              bottom: 208px;
+              left: -69px;
+              width: 47px;
+              height: 47px;
+            }
+            &:after {
+              content: "";
+              position: absolute;
+              z-index: 1;
+              background: url(../img/beni-4.png) no-repeat;
+              height: 86px;
+              width: 320px;
+              bottom: -30px;
+              left: -115px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

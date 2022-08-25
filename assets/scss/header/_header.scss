@@ -1,0 +1,25 @@
+.header-area {
+  padding-top: 16px;
+  margin-bottom: 50px;
+  background-color: $color-bg;
+  .navbar {
+    .navbar-brand h2 {
+      font-weight: 600;
+      font-size: 42px;
+      line-height: 30px;
+      color: $color-one;
+    }
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show > .nav-link {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: $color-two;
+    }
+    .navbar-nav .nav-link {
+      font-size: 16px;
+      line-height: 19px;
+      color: $color-five;
+    }
+  }
+}
